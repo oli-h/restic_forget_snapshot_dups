@@ -23,6 +23,6 @@ The script finally forgets the second (later, younger) snapshot.
 Finally, only snapshots remain which *really* contains differences to the previous snapshot.
 
 ### Futher thoughts
-- it would be good if `restic` itself would offen an option to *not* create a snapshot when no files changed
+- it would be good if `restic` itself would offer an option to *not* create a snapshot when no files changed
 - you still can combine this script with the provided `forget`-policies of restic. 
 Propose to run this script first as it removes useless snapshots
